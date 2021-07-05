@@ -1,0 +1,32 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html{
+	scroll-behavior: smooth; 
+}
+
+body{
+	
+	background-color: #edf3f3;
+	/* font-family:Gilory-Medium; #edf3f3 */
+  /* font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; */
+}
+
+#preloader{
+    margin: 2em;
+    font-size: 2em;
+}
+
+
+.welcome{
+    color: white;
+}
+
+
+.back-btn{
+    position: relative;
+    left: 40%;
+}

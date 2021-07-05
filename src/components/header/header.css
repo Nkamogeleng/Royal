@@ -1,0 +1,59 @@
+.header-container {
+    position: relative;
+	min-height: 20vh;
+    width: 100%;
+    font-weight: 300;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+	background: url('../../images/header.PNG');
+	background-position: center center;
+    background-attachment:fixed;
+	background-size: cover;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-end;
+	color: #efeeee;
+}
+
+.header-overlay {
+	height: 100%;
+	width: 100%;
+	z-index: 991;
+	background-color: rgba(0, 0, 0, 0.4);
+	position: absolute;
+}
+
+.header-content {
+	height: 100%;
+	width: 40%;
+	z-index: 992;
+    padding: 20px;
+}
+
+.header h2 {
+	font-size: 2em;
+	font-weight: 600;
+	padding: 0px 30px;
+}
+
+
+@media all and (max-width: 700px) {
+    .header-container{
+        margin-bottom: 0px;
+    }
+	.header-content {
+        position: relative;
+		justify-self: flex-end;
+        top: 200px;
+		text-align: center;
+		min-height: 300px;
+		width: 100%;
+		z-index: 992;
+		padding: 20px;
+	}
+}
+
+
+
+
+

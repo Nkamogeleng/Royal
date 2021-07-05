@@ -1,0 +1,98 @@
+
+.add-note-container {
+    position: relative;
+    top:0;
+    left: 0;
+    margin: 0px auto;
+    width: 100%;
+  }
+  
+  .add-note-container > form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .add-note-container > form > textarea {
+    position: relative;
+    min-height: 150px;
+    background-color: #fcfcfc;
+    outline: 0 !important;
+    border: 1px solid hsl(0, 0%, 80%);
+    border-radius: 4px;
+    color: #6a6a6a;
+    font-family: inherit;
+    font-size: inherit;
+  }
+  .add-note-fields {
+    margin: 2.5px 0px;
+    width: 100%;
+    font-family: inherit;
+    font-size: inherit;
+  }
+  
+  .add-note-container > form > input {
+    position: relative;
+    min-height: 38px;
+    background-color: #ffffff;
+    outline: 0 !important;
+    border: 1px solid hsl(0, 0%, 80%);
+    border-radius: 4px;
+    color: #6a6a6a;
+    font-family: inherit;
+    font-size: inherit;
+  }
+  
+  .add-note-btn {
+    margin: 2.5px 0px;
+    padding: 0.65rem 1.1rem;
+    font-size: inherit;
+    font-family: inherit;
+    outline: none;
+    border: 1px solid #cdcdcd;
+    color: #fcfcfc;
+    background-color: #077784;
+    border-radius: 5px;
+  }
+  
+
+#add-note-form select,
+#add-note-form input,
+#add-note-form textarea {
+    color: #111;
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    font-weight: 400;
+    outline: none;
+    border: 1px solid #8bb4e0;
+    border-radius: 5px;
+    resize: none;
+}
+
+.note-avatar{
+    height: 50px;
+    width: 50px;
+}
+
+.note-date{
+    position: relative;
+    top: 15px;
+}
+#note-title{
+    color: #193c5a;
+    font-size: 1.5em;
+}
+
+.btn-add-note{
+    margin: auto 15px;
+    position: relative;
+}
+
+.btn-post-note {
+  margin: auto 2px;
+  position: relative;
+  left: 220%;
+}
+

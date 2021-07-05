@@ -1,0 +1,41 @@
+#search{
+    position: relative;
+    width: 400px;
+    box-sizing: border-box;
+}
+
+#search form{
+    margin-top: 22px;
+}
+
+#search form input {
+    background-color: #efeeee;
+    border: 1px solid #077784;
+}
+
+#search_btn{
+    background-color: inherit;
+    border: 1px solid #077784;
+    font-size: inherit;
+    font-family: 'Roboto', cursive;
+    color:#efeeee;  
+}
+
+#viewsearch{
+    background-color: #efeeee;
+    position: absolute;
+    height: auto;
+    width: 100%;
+    padding: 10px 15px;
+  }
+
+  /*------------------------------------------------
+Mobile screen
+---------------------------------------------------*/
+
+@media all and (max-width: 700px) {
+	#search{
+        width: 300px;
+	}
+	
+}

@@ -1,0 +1,24 @@
+#scrollToTop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #077784;
+    color: #fcfcfc;
+    position: fixed;
+    bottom: 25px;
+    right: 30px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  #main {
+    position: relative;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+   
